@@ -40,7 +40,7 @@ class PyratchInstaller:
 
 	def download_dependencies(self):
 		print("Downloading dependencies")
-		os.system("python3 -m pip install scratchattach flask")
+		os.system("python -m pip install scratchattach flask")
 
 	def run(self):
 		self.install()
