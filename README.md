@@ -3,6 +3,9 @@
 An installer for Pyratch.
 
 # Usage
+=======
+
+It is recommended to add this to your bash profile or zsh profile before you try installing Pyratch: `alias python=python3`
 
 Note that this installer only works for Unix based devices, and won't work on Windows. You'll need to install the GitHub repo via [one of the other two methods mentioned here](https://github.com/GenericProgrammer1234/Pyratch).
 
