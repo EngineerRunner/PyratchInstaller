@@ -1,89 +1,89 @@
-# Pyratch Installer
+Installing Pyratch: A Technical Walkthrough
 
-This guide provides step-by-step instructions for installing Pyratch using the provided code snippet. Pyratch is a light-weight Scratch reader developed by AH (@GenericProgrammer1234 on GitHub) made using Flask and ScratchAttach.
+Welcome to the installation guide for Pyratch, a lightweight Scratch reader developed by AH (@GenericProgrammer1234 on GitHub). This guide will take you through the step-by-step process of installing Pyratch using the provided code snippet. Pyratch is built using Flask and ScratchAttach, and this guide will ensure you have it up and running smoothly.
 
-## Installation Steps
+Installation Procedure
 
-1. **Open a Terminal:**
-    Open a terminal window on your system. This will be used to run the installation script and commands.
+Launching the Terminal:
+To begin the installation, open a terminal window on your operating system. The terminal will serve as the interface for running the installation script and executing commands.
 
-2. **Clone the Repository:**
-    Decide whether you want to perform a system-wide or user-specific installation. The installation process will differ based on your choice.
+Repository Cloning:
+Determine whether you want to proceed with a system-wide installation or a user-specific installation. The installation process will differ depending on your choice.
 
-    a. **System-wide Install:**
-        To perform a system-wide installation, enter `1` and press Enter:
-        ```
-        1
-        ```
+a. System-wide Installation:
+If you intend to perform a system-wide installation, input 1 and hit Enter:
 
-    b. **User Install:**
-        To perform a user-specific installation, enter `2` and press Enter:
-        ```
-        2
-        ```
+1
 
-3. **Select Version:**
-    Choose between installing the latest stable version or the latest development version (not recommended for most users).
 
-    a. **Stable Version:**
-        Enter `1` for the stable version and press Enter:
-        ```
-        1
-        ```
+b. User Installation:
+For a user-specific installation, input 2 and hit Enter:
 
-    b. **Development Version:**
-        Enter `2` for the development version (not recommended for most users) and press Enter:
-        ```
-        2
-        ```
+2
 
-4. **Installation Process:**
-    Based on your selections in steps 2 and 3, the appropriate installation command will be executed.
 
-    a. If you chose a system-wide install and stable version (option 1), the following command will be executed:
-        ```
-        cd / && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b stable
-        ```
+Version Selection:
+You have the option to choose between installing the latest stable version or the latest development version (which is not recommended for general users).
 
-    b. If you chose a system-wide install and development version (option 2), the following command will be executed:
-        ```
-        cd / && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b dev
-        ```
+a. Stable Version:
+Input 1 for the stable version and hit Enter:
 
-    c. If you chose a user install and stable version (option 1), the following command will be executed:
-        ```
-        cd ~ && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b stable
-        ```
+1
 
-    d. If you chose a user install and development version (option 2), the following command will be executed:
-        ```
-        cd ~ && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b dev
-        ```
 
-5. **Download Dependencies:**
-    Once the repository is cloned, the installer will download the required dependencies using the following command:
-    ```
-    python3 -m pip install scratchattach flask
-    ```
+b. Development Version:
+If you want the development version (not recommended for most users), input 2 and hit Enter:
 
-6. **Installation Complete:**
-    Once the dependencies are installed, the Pyratch installation is complete.
+2
 
-7. **Run Pyratch:**
-    Depending on your installation type, navigate to the appropriate directory:
 
-    a. For system-wide install:
-        ```
-        cd /Pyratch
-        ```
+Installation Execution:
+Depending on the selections you made in steps 2 and 3, the appropriate installation command will be executed.
 
-    b. For user install:
-        ```
-        cd ~/Pyratch
-        ```
+a. System-wide install with stable version (option 1) will execute:
 
-    Run Pyratch using the appropriate command for your system.
+cd / && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b stable
 
-Congratulations! You have successfully installed Pyratch. You can now use Pyratch for Scratch attachment and Flask integration.
 
-For more information or support, you can visit the [Pyratch GitHub repository](https://github.com/GenericProgrammer1234/Pyratch).
+b. System-wide install with development version (option 2) will execute:
+
+cd / && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b dev
+
+
+c. User install with stable version (option 1) will execute:
+
+cd ~ && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b stable
+
+
+d. User install with development version (option 2) will execute:
+
+cd ~ && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b dev
+
+
+Dependency Download:
+Once the repository is successfully cloned, the installer will proceed to download the necessary dependencies using this command:
+
+python3 -m pip install scratchattach flask
+
+
+Installation Completion:
+After the dependencies are installed, the Pyratch installation process is considered complete.
+
+Running Pyratch:
+Depending on the type of installation you chose, navigate to the appropriate directory:
+
+a. For system-wide installation:
+
+cd /Pyratch
+
+
+b. For user installation:
+
+cd ~/Pyratch
+
+
+Run Pyratch using the suitable command for your system.
+
+Congratulations! You have successfully installed Pyratch. You are now equipped to utilize Pyratch for Scratch attachment and Flask integration.
+
+For any additional information or support, feel free to visit the Pyratch GitHub repository. Happy coding! 🚀
