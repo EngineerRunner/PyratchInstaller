@@ -21,16 +21,10 @@ Note that this installer only works for Linux based devices, and won't work on W
    You have the option to choose between installing the latest stable version or the latest development version (which is not recommended for general users).
 
    a. **Stable Version:**
-      Input `1` for the stable version and hit Enter:
-      ```
-      1
-      ```
+      Input `1` for the stable version and hit Enter.
 
    b. **Development Version:**
-      If you want the development version (not recommended for most users), input `2` and hit Enter:
-      ```
-      2
-      ```
+      If you want the development version (not recommended for most users), input `2` and hit Enter.
 
 4. **Dependency Download:**
    Once the repository is successfully cloned, the installer will proceed to download the necessary dependencies using this command:
