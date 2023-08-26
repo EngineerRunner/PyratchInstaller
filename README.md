@@ -12,16 +12,10 @@ Note that this installer only works for Linux based devices, and won't work on W
    Determine whether you want to proceed with a system-wide installation or a user-specific installation. The installation process will differ depending on your choice.
 
    a. **System-wide Installation:**
-      If you intend to perform a system-wide installation, input `1` and hit Enter:
-      ```
-      1
-      ```
+      If you intend to perform a system-wide installation, input `1` and hit Enter.
 
    b. **User Installation:**
-      For a user-specific installation, input `2` and hit Enter:
-      ```
-      2
-      ```
+      For a user-specific installation, input `2` and hit Enter.
 
 3. **Version Selection:**
    You have the option to choose between installing the latest stable version or the latest development version (which is not recommended for general users).
