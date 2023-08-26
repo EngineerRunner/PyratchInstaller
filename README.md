@@ -4,9 +4,11 @@ An installer for Pyratch.
 
 # Usuage
 
+It is recommended to add this to your bash profile or zsh profile before you try installing Pyratch: `alias python=python3`
+
 Note that this installer only works for Unix based devices, and won't work on Windows. You'll need to install the GitHub repo via [one of the other two methods mentioned here](https://github.com/GenericProgrammer1234/Pyratch).
 
-1. Launch the terminal, download this repo through `git clone github.com/GenericProgrammer1234/PyratchInstaller` then navigate into PyratchInstaller and type `python install.py` to launch the installer
+1. Launch the terminal, download this repo through `git clone https://www.github.com/GenericProgrammer1234/PyratchInstaller` then navigate into PyratchInstaller and type `python install.py` to launch the installer
 
 2. It will prompt you for your type of installation, enter `1` for system-wide installation (requires root or admin) or enter `2` for user installation
 
