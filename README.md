@@ -1,55 +1,15 @@
-# Installing Pyratch: A Technical Walkthrough
+# Pyratch Installer
 
-Welcome to the installation guide for Pyratch, a lightweight Scratch reader developed by AH (@GenericProgrammer1234 on GitHub). This guide will take you through the step-by-step process of installing Pyratch using the provided code snippet. Pyratch is built using Flask and ScratchAttach, and this guide will ensure you have it up and running smoothly.
+An installer for Pyratch.
 
-Note that this installer only works for Linux based devices, and won't work on Windows or MacOS. You'll need to install manually from the [Pyratch GitHub repository](https://github.com/GenericProgrammer1234/Pyratch) if you use Windows or MacOS.
-## Installation Procedure
+# Usuage
 
-1. **Launching the Terminal:**
-   To begin the installation, open a terminal window on your operating system. The terminal will serve as the interface for running the installation script and executing commands.
+Note that this installer only works for Unix based devices, and won't work on Windows. You'll need to install the GitHub repo via [one of the other two methods mentioned here](https://github.com/GenericProgrammer1234/Pyratch).
 
-2. **Repository Cloning:**
-   Determine whether you want to proceed with a system-wide installation or a user-specific installation. The installation process will differ depending on your choice.
+1. Launch the terminal, download this repo through `git clone github.com/GenericProgrammer1234/PyratchInstaller` then navigate into PyratchInstaller and type `python install.py` to launch the installer
 
-   a. **System-wide Installation:**
-      If you intend to perform a system-wide installation, input `1` and hit Enter.
+2. It will prompt you for your type of installation, enter `1` for system-wide installation (requires root or admin) or enter `2` for user installation
 
-   b. **User Installation:**
-      For a user-specific installation, input `2` and hit Enter.
+3. It will ask you for which version, enter `1` for the latest stable version or enter `2` for the latest development version (not recommended but has the latest of latest features even if there are bugs and is recommended for contributors)
 
-3. **Version Selection:**
-   You have the option to choose between installing the latest stable version or the latest development version (which is not recommended for general users).
-
-   a. **Stable Version:**
-      Input `1` for the stable version and hit Enter.
-
-   b. **Development Version:**
-      If you want the development version (not recommended for most users), input `2` and hit Enter.
-
-4. **Dependency Download:**
-   Once the repository is successfully cloned, the installer will proceed to download the necessary dependencies using this command:
-   ```
-   python3 -m pip install scratchattach flask
-   ```
-
-5. **Installation Completion:**
-   After the dependencies are installed, the Pyratch installation process is considered complete.
-
-6. **Running Pyratch:**
-   Depending on the type of installation you chose, navigate to the appropriate directory:
-
-   a. For system-wide installation:
-      ```
-      cd /Pyratch
-      ```
-
-   b. For user installation:
-      ```
-      cd ~/Pyratch
-      ```
-
-   Run Pyratch using the suitable command for your system.
-
-Congratulations! You have successfully installed Pyratch. You are now equipped to utilize Pyratch for Scratch attachment and Flask integration.
-
-For any additional information or support, feel free to visit the [Pyratch GitHub repository](https://github.com/GenericProgrammer1234/Pyratch). Happy coding! 🚀
+4. After the dependencies are installed, navigate to the folder where Pyratch was installed and type `python interface.py` to run
