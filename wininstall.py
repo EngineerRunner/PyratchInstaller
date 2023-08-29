@@ -16,7 +16,7 @@ if t == 1:
 elif t == 2:
 	os.system(f"cd %USERPROFILE% && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b {branch}")
 print("Downloading dependicies")
-os.system("pip install scratchattach flask")
+os.system("pip3 install scratchattach flask")
 print("Running Pyratch")
 os.system("cd " + ("C:\\Pyratch" if t == 2 else "%USERPROFILE\\Pyratch") + " && python install.py")
 print("Done! Now go to localhost:5000 to use Pyratch! In the future you'll need to go to " + ("C:\\Pyratch" if t == 2 else "C:\\Users\\<yourusername>\\Pyratch") + " and run it!")
