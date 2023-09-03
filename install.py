@@ -18,7 +18,7 @@ if t == 1:
 elif t == 2:
 	os.system(f"cd ~ && git clone https://github.com/GenericProgrammer1234/Pyratch.git -b {branch}")
 print("Downloading dependicies")
-os.system("python -m pip3 install scratchattach flask")
+os.system("python -m pip install scratchattach flask")
 print("Running Pyratch")
 
 os.system("cd " + ("~/Pyratch" if t == 2 else "/Pyratch") + " && python interface.py")
