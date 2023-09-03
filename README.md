@@ -4,6 +4,7 @@ An installer for Pyratch.
 
 # Usage
 
+This only works on Unix systems.
 It is recommended to add this to your bash profile or zsh profile before you try installing Pyratch: `alias python=python3`
 
 
