@@ -22,4 +22,4 @@ os.system("python -m pip install scratchattach flask")
 print("Running Pyratch")
 
 os.system("cd " + ("~/Pyratch" if t == 2 else "/Pyratch") + " && python interface.py")
-print("Done! Now go to https://localhost:5000 to use Pyratch! In the future you'll need to go to " + ("~/Pyratch" if t == 2 else "/Pyratch") + " and run it!")
+print("Done! Now go to http://localhost:5000 to use Pyratch! In the future you'll need to go to " + ("~/Pyratch" if t == 2 else "/Pyratch") + " and run it!")
