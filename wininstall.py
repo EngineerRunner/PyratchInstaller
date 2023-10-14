@@ -18,5 +18,5 @@ elif t == 2:
 print("Downloading dependicies")
 os.system("pip install scratchattach flask")
 print("Running Pyratch")
-os.system("cd " + ("C:\\Pyratch" if t == 2 else "%USERPROFILE\\Pyratch") + " && python install.py")
 print("Done! Now go to localhost:5000 to use Pyratch! In the future you'll need to go to " + ("C:\\Pyratch" if t == 2 else "C:\\Users\\<yourusername>\\Pyratch") + " and run it!")
+os.system("cd " + ("C:\\Pyratch" if t == 2 else "%USERPROFILE\\Pyratch") + " && python install.py")

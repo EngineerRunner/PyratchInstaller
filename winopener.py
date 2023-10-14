@@ -7,5 +7,6 @@ print("1. System-wide Install")
 print("2. User Install")
 t = int(input())
 print("Running Pyratch")
-os.system("cd " + ("C:\\Pyratch" if t == 2 else "%USERPROFILE\\Pyratch") + " && python install.py")
 print("Done! Now go to localhost:5000 to use Pyratch!")
+os.system("cd " + ("C:\\Pyratch" if t == 2 else "%USERPROFILE\\Pyratch") + " && python install.py")
+
