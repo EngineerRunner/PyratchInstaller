@@ -18,5 +18,3 @@ It is recommended to add this to your bash profile or zsh profile before you try
 
 5. To update navigate to the installer and then run `python updater.py`,
 it will ask you for your type of installation, enter `1` for system-wide installation or enter `2` for user installation, make sure to tell the installation that you have and want to update, and then go ahead and go to `https://localhost:5000` to use Pyratch, but this time with the latest futures.
-
-   (idea of the opener was so stupid, also this README file is so repetitive and stupid)
